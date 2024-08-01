@@ -21,7 +21,7 @@ body{
 header{
    height: 100vh;
      width: 100%;
-    background: url(./universe-assets/Hero.png);
+    background: url(assets/Hero.png);
   
     background-size: 100% 100%;
     background-repeat:no-repeat;
@@ -108,16 +108,17 @@ header{
 }
 .hero-mercury{
     position: absolute;
-    left: -7%;
-    top: 8%;
-    height: 20rem;
+    left: -6%;
+    top: 14%;
+    height: 24rem;
     z-index: 3;
 }
 .hero-saturn{
     position: absolute;
-    left: -12%;
-    bottom: 21%;
-    height: 35rem;
+    top: 46%;
+    left: -19%;
+    bottom: 23%;
+    height: 45rem;
     z-index: 2;
 }
 .hero-uranus{
@@ -129,9 +130,9 @@ header{
 }
 .hero-neptune{
     position: absolute;
-    bottom: 0;
-    left:50%;
-    transform: translate(-50%,42%);
+    bottom: 23px;
+    left: 50%;
+    transform: translate(-50%, 42%);
     z-index: 2;
 }
 .hero-jupiter{
@@ -143,11 +144,10 @@ header{
 }
 .hero-mars{
     position: absolute;
-    right: 0;
+    right: -30px;
     transform: translateX(40%);
-    height: 25rem;
+    height: 33rem;
     z-index: 2;
-    
 }
 .hero-venus{
     position: absolute;
@@ -183,7 +183,7 @@ header{
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url(./universe-assets/Sun.png);
+    background: url(planets/Sun.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -277,15 +277,14 @@ header{
     position:relative;
     height: 100vh;
     width: 100%;
-    background: url(universe-assets/Mercury.png);
+    background: url(planets/Mercury.png);
     background-size: 100% 100%;
 }
 .mercury-image{
     position: absolute;
-    
-    left: -12%;
-    bottom: 50%;
-    transform: translateY(50%) scale(.9);
+    left: -8%;
+    bottom: 57%;
+    transform: translateY(50%) scale(2.8);
     z-index: 1;
 }
 .mercury-shadow-1{
@@ -327,7 +326,7 @@ header{
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url(universe-assets/Venus.png);
+    background: url(planets/Venus.png);
     background-size: 100% 100%;
     overflow: hidden;
 }
@@ -372,17 +371,18 @@ header{
 .earth{
     height: 100vh;
     width: 100%;
-    background: url(universe-assets/Earth.png);
+    background: url(planets/Earth.png);
     background-size: 100% 100%;
     overflow: hidden;
     position: relative;
 }
 .earth-image{
     position: absolute;
-    bottom:-117%;
-    height: 180%;
-    width: 90%;
-    left: 4%;
+    bottom: -117%;
+    transform: scaleX(-1);
+    height: 177%;
+    width: 85%;
+    left: 6%;
     z-index: 4;
 }
 .earth-shadow-1{
@@ -452,17 +452,17 @@ header{
 .mars{
     height: 100vh;
     width: 100%;
-    background: url(universe-assets/Mars.png);
+    background: url(planets/Mars.png);
     position: relative;
     background-size: 100% 100%;
     overflow: hidden;
 }
 .mars-image{
     position: absolute;
-    height: 110%;
+    height: 111%;
     width: 58%;
-    bottom: -45%;
-    left: -15%;
+    bottom: -47%;
+    left: -24%;
     z-index: 3;
 }
 .mars-shadow-1{
@@ -524,17 +524,18 @@ header{
 .jupiter{
     height: 100vh;
     width: 100%;
-    background: url(universe-assets/Jupiter.png);
+    background: url(planets/Jupiter.png);
     background-size: 100% 100%;
     position: relative;
     overflow: hidden;
 }
 .jupiter-image{
-    height: 140%;
-    width: 80%;
+    height: 138%;
+    transform: rotate(77deg);
+    width: 53%;
     position: absolute;
-    top: -38%;
-    right: -28%;
+    top: -40%;
+    right: -16%;
     z-index: 3;
 }
 .jupiter-shadow-1{
@@ -572,7 +573,7 @@ header{
 .saturn{
     height: 100vh;
     width: 100%;
-    background: url(universe-assets/Saturn.png);
+    background: url(planets/Saturn.png);
     background-size: 100% 100%;
     position: relative;
     overflow: hidden;
@@ -619,7 +620,7 @@ header{
 .uranus{
     height: 100vh;
     width: 100%;
-    background: url(universe-assets/Uranus.png);
+    background: url(planets/Uranus.png);
     background-size: 100% 100%;
     position: relative;
     overflow: hidden;
@@ -669,7 +670,7 @@ header{
 .neptune{
     height: 100vh;
     width: 100%;
-    background: url(universe-assets/Neptune.png);
+    background: url(planets/Neptune.png);
     background-size: 100% 100%;
     position: relative;
     overflow: hidden;
@@ -677,7 +678,7 @@ header{
 .footer{
     height: 60vh;
     width: 100%;
-    background: url(universe-assets/Footer.png);
+    background: url(planets/Footer.png);
     background-size: 100% 100%;
     position: relative;
     overflow:hidden;
